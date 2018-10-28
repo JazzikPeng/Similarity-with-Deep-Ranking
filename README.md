@@ -11,6 +11,7 @@ It's normal to have a GAN discriminator result in lower acc than discriminator w
 
 # cifar10 real images
 Here is example of cifar10 dataset's real images
+![1 epochs example](./real_images.png)
 
 
 # GAN Result
