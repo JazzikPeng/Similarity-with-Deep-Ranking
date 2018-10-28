@@ -2,6 +2,13 @@
 Implemented GAN and understand the property and features of CNN model.
 What does CNN actually learn?
 
+# Train Time
+
+Using one node on Bluewater(UIUC Supercomputer) cost:
+~45 hours for GAN_discriminator_With_Generator.py, acc on cifar10, 83.89%
+~2 hours for Discriminator_Without_Generator.py, acc on cifar10, 88.0600%'s
+It's normal to have a GAN discriminator result in lower acc than discriminator without generator 
+
 # GAN Result
 ## first epochs example
 ![1 epochs example](./GAN_Output_Exampel/000.png)
@@ -11,3 +18,5 @@ What does CNN actually learn?
 
 ## 150 epochs example
 ![150 epochs example](./GAN_Output_Exampel/150.png)
+
+# Train
