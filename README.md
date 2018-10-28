@@ -9,6 +9,10 @@ Using one node on Bluewater(UIUC Supercomputer) cost:
 ~2 hours for Discriminator_Without_Generator.py, acc on cifar10, 88.0600%'s
 It's normal to have a GAN discriminator result in lower acc than discriminator without generator 
 
+# cifar10 real images
+Here is example of cifar10 dataset's real images
+
+
 # GAN Result
 ## first epochs example
 ![1 epochs example](./GAN_Output_Exampel/000.png)
