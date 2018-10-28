@@ -58,8 +58,9 @@ class discriminator(nn.Module):
 
 # Create Directory
 if os.path.exists('./visualization'):
-    print('visualization dir does not exist, create one')
+    print('visualization exist')
 else:
+    print('visualization dir does not exist, create one')
     os.mkdir('visualization')
 
 
