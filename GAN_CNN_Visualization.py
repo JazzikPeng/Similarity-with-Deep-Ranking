@@ -15,6 +15,7 @@ import torch.autograd as autograd
 import torch.nn as nn
 import torch.nn.functional as F
 import time
+import copy
 
 
 class discriminator(nn.Module):
