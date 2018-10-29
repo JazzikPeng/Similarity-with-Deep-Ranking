@@ -67,7 +67,7 @@ Layer2
 Layer7
 ![synthetic Image w/o Generator layer7](./visualization/max_features_without_G_Layer7.png)
 
-## For discriminator without Generator
+## For discriminator with Generator
 Layer2
 ![synthetic Image w/o Generator layer2](./visualization/max_features_with_G_Layer2.png)
 Layer7
