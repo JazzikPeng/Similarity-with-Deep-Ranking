@@ -48,4 +48,11 @@ Here is example of cifar10 dataset's real images
 ## modified image, jittered
 ![jittered images](./visualization/jittered_images.png)
 
+# Synthetic Images Maximizing Classification Output
+## Synthetic image without generator
+![synthetic Image w/o Generator](./visualization/max_class_no_G.png)
+
+## Synthetic image with generator
+![synthetic Image w/o Generator](./visualization/max_class_with_G.png)
+
 
