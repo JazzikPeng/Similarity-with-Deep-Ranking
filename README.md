@@ -58,18 +58,19 @@ Here is example of cifar10 dataset's real images
 
 
 # Synthetic Features Maximizing Features at Various Layers
-From this part. Synthetic images maximizing a particular layer of features. Do this for at least two different layers (for example - layer 4 and layer 8.)
+From this part. Synthetic images maximizing a particular layer of features. Do this for at least two different layers.
+Here I did layer 2 and layer 7 for both discriminator
 
-## For Discriminator without Generator
-- Layer2
+## For discriminator without Generator
+Layer2
 ![synthetic Image w/o Generator layer2](./visualization/max_features_without_G_Layer2.png)
-- Layer7
+Layer7
 ![synthetic Image w/o Generator layer7](./visualization/max_features_without_G_Layer7.png)
 
-## For Discriminator without Generator
-- Layer2
+## For discriminator without Generator
+Layer2
 ![synthetic Image w/o Generator layer2](./visualization/max_features_with_G_Layer2.png)
-- Layer7
+Layer7
 ![synthetic Image w/o Generator layer7](./visualization/max_features_with_G_Layer7.png)
 
 
