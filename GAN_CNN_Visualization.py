@@ -348,6 +348,7 @@ class discriminator(nn.Module):
         return self.fc1(x), self.fc10(x)
 
 
+
 class discriminator2(nn.Module):
     def __init__(self):
         super(discriminator2, self).__init__()
@@ -402,42 +403,43 @@ class discriminator2(nn.Module):
         x = self.conv1(x)
         if extract_features == 1:
             x = F.max_pool2d(x, 32, 32)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x
         x = self.conv2(x)
         if extract_features == 2:
             # print('HERE')
             x = F.max_pool2d(x, 16, 16)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x
         x = self.conv3(x)
         if extract_features == 3:
             x = F.max_pool2d(x, 16, 16)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x
         x = self.conv4(x)
         if extract_features == 3:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv5(x)
         if extract_features == 5:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv6(x)
         if extract_features == 6:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv7(x)
         if extract_features == 7:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv8(x)
-        x = x.view(-1,196)
+        x = x.view(x.size(0), -1)
         return x
+
 
 
 model = torch.load('cifar10.model', map_location='cpu')
@@ -634,6 +636,7 @@ class discriminator(nn.Module):
         return self.fc1(x), self.fc10(x)
 
 
+
 class discriminator2(nn.Module):
     def __init__(self):
         super(discriminator2, self).__init__()
@@ -688,42 +691,43 @@ class discriminator2(nn.Module):
         x = self.conv1(x)
         if extract_features == 1:
             x = F.max_pool2d(x, 32, 32)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x
         x = self.conv2(x)
         if extract_features == 2:
             # print('HERE')
             x = F.max_pool2d(x, 16, 16)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x
         x = self.conv3(x)
         if extract_features == 3:
             x = F.max_pool2d(x, 16, 16)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x
         x = self.conv4(x)
         if extract_features == 3:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv5(x)
         if extract_features == 5:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv6(x)
         if extract_features == 6:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv7(x)
         if extract_features == 7:
             x = F.max_pool2d(x, 8, 8)
-            x = x.view(-1, 196)
+            x = x.view(x.size(0), -1)
             return x 
         x = self.conv8(x)
-        x = x.view(-1,196)
+        x = x.view(x.size(0), -1)
         return x
+
 
 
 model = torch.load('discriminator.model', map_location='cpu')
