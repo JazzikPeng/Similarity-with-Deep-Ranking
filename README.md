@@ -6,7 +6,7 @@ What does CNN actually learn?
 
 Using one node on Bluewater(UIUC Supercomputer) cost:
 ~45 hours for GAN_discriminator_With_Generator.py, acc on cifar10, 83.44% in epoch 200, 
-max acc: 85.02768987341773 in epoch 199
+max acc: 85.027% in epoch 199
 ~2 hours for Discriminator_Without_Generator.py, acc on cifar10, 88.0600%'s
 It's normal to have a GAN discriminator result in lower acc than discriminator without generator 
 
@@ -20,7 +20,7 @@ Here is example of cifar10 dataset's real images
 ![1 epochs example](./GAN_Output_Exampel/000.png)
 ## 50th epochs example
 
-![50 epochs example](./GAN_Output_Exampel/50.png)
+![50 epochs example](./GAN_Output_Exampel/050.png)
 
 ## 100 epochs example
 ![100 epochs example](./GAN_Output_Exampel/100.png)
