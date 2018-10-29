@@ -37,10 +37,6 @@ A batch of real images, a batch of the gradients from an alternate class for the
 
 ## Real Image
 Here is example of cifar10 dataset's real images
-![1 epochs example](./real_images.png)
-
-## Real Image
-Here is example of cifar10 dataset's real images
 ![real images](./visualization/real_images.png)
 
 ## Gradient image
