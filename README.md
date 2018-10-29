@@ -20,10 +20,10 @@ Here is example of cifar10 dataset's real images
 ![1 epochs example](./GAN_Output_Exampel/000.png)
 ## 50th epochs example
 
-![50 epochs example](./GAN_Output_Exampel/049.png)
+![50 epochs example](./GAN_Output_Exampel/50.png)
 
 ## 100 epochs example
-![100 epochs example](./GAN_Output_Exampel/099.png)
+![100 epochs example](./GAN_Output_Exampel/100.png)
 
 ## 150 epochs example
 ![150 epochs example](./GAN_Output_Exampel/150.png)
