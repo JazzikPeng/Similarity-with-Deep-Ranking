@@ -15,13 +15,37 @@ Here is example of cifar10 dataset's real images
 
 
 # GAN Result
-## first epochs example
+## 1st epochs example
 ![1 epochs example](./GAN_Output_Exampel/000.png)
-## 25th epochs example
+## 50th epochs example
 
-![25 epochs example](./GAN_Output_Exampel/025.png)
+![50 epochs example](./GAN_Output_Exampel/049.png)
+
+## 100 epochs example
+![100 epochs example](./GAN_Output_Exampel/099.png)
 
 ## 150 epochs example
 ![150 epochs example](./GAN_Output_Exampel/150.png)
 
-# Train
+## 200 epochs example
+![200 epochs example](./GAN_Output_Exampel/199.png)
+## 
+
+# Perturb Real Image
+A batch of real images, a batch of the gradients from an alternate class for these images, and the modified images the discriminator incorrectly classifies.
+
+## Real Image
+Here is example of cifar10 dataset's real images
+![1 epochs example](./real_images.png)
+
+## Real Image
+Here is example of cifar10 dataset's real images
+![real images](./visualization/real_images.png)
+
+## Gradient image
+![gradient images](./visualization/gradient_image.png)
+
+## modified image, jittered
+![jittered images](./visualization/jittered_images.png)
+
+
